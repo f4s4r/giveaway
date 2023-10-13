@@ -55,4 +55,8 @@ win2 = names[ord(winner2)-65]
 win3 = names[ord(winner3)-65]
 win4 = names[ord(winner4)-65]
 win5 = names[ord(winner5)-65]
-print(' ' + '1 место -', win1, '\n', '2 место -', win2, '\n', '3 место -', win3, '\n', '4 место -', win4, '\n', '5 место -', win5)
+print(' ' + '1 место -', win1, '---',  data[win1], 'балла/ов')
+print(' ' + '2 место -', win2, '---',  data[win2], 'балла/ов')
+print(' ' + '3 место -', win3, '---',  data[win3], 'балла/ов')
+print(' ' + '4 место -', win4, '---',  data[win4], 'балла/ов')
+print(' ' + '5 место -', win5, '---',  data[win5], 'балла/ов')
